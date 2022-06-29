@@ -1,0 +1,9 @@
+npm init -y
+
+npm install express pg cors
+
+npm install nodemon -D
+
+in package.json
+    "start": "node index.js",
+    "dev": "nodemon index.js"
